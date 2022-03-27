@@ -1,0 +1,621 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main{
+}
+
+.clear{
+    clear: both;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.float-l{
+    float: left;
+}
+
+
+
+
+
+/* thu nho nav  */
+#nav{
+    display: inline-block;
+}
+
+/* begin header  */
+#header{
+    height: 46px;
+    background-color: black;
+}
+
+#nav li{
+    display: inline-block;
+    line-height: 46px;
+  
+    font-size: 15px;
+    position: relative;
+}
+
+#nav li:hover{
+    color: black;
+    background-color: #ccc;
+}
+
+#nav > li > a{
+    text-transform: uppercase;
+    color: white;
+}
+
+#nav li a{
+    text-decoration: none;
+    padding: 0 24px;
+    
+}
+
+#nav .sub-nav{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(0 0 0 / 40%);
+}
+
+#nav .sub-nav li{
+    width: 100%;
+}
+#nav .sub-nav li a{
+    color: black;
+}
+
+#nav li:hover .sub-nav{
+    display: block;
+}
+
+#slider{
+    height: 1000px;
+    background-color: wheat;
+}
+
+/* begin icon1  */
+#nav .nav-icons1{
+    font-size: 14px;
+}
+
+/* begin icons2  */
+
+#header .search{
+    float: right;
+    line-height: 46px;
+    padding: 0 24px;
+
+}
+#header .nav-icons2{
+    color: white;
+}
+
+#header .search:hover{
+    color: white;
+    background-color: #f44336;
+}
+
+
+/* cuon thanh header  */
+#header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* làm nổi trên ảnh */
+    z-index: 1;
+
+}
+
+/* begin slider  */
+#slider{
+    position: relative;
+    margin-top: 46px;
+    padding-top: 50%;
+    background-image: url('/assets/img/picture/anh4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#slider .slider-list{
+    position: absolute;
+    text-align: center;
+    color: white;
+    bottom: 47px;
+    width: 100%;
+
+}
+
+#slider .slider-heading{
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+#slider .slider-text{
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: bolder;
+
+}
+
+
+
+
+/* begin content  */
+#content{
+    
+}
+
+#content .content-selection{
+    padding: 64px 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/*begin icon
+*/
+i.icon-hear.ti-heart {
+    padding-left: 44px;
+}
+
+/* content head  */
+#content .selecetion-heading{
+    margin: 10px 0;
+    font-size: 38px;
+    font-weight: 400; 
+    text-align: center;
+}
+
+#content .selection-sub-heading{
+    font-size: 15px;
+    margin: 15px 0;
+    line-height: 1.5;
+    opacity: 0.60;
+    font-style: italic;
+    text-align: center;
+}
+}
+/* .......  */
+
+/* begin content nd&img  */
+#content .about-text{
+    font-size: 15px;
+    text-align: justify;
+    padding: 15px 0;
+}
+
+/* begin band-img  */
+
+
+#content .member-list{
+    display: table-cell;
+    padding: 32px 0;
+    text-align: center;
+
+}
+
+p.member-name:hover {
+    color: black;
+    background-color: rgb(204, 204, 204);
+    cursor: pointer;
+}
+
+#content .member-name{
+   
+    margin: 15px;
+    text-align: 1.5;
+    font-size: large;
+
+}
+
+#content .member-img{
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* begin tour place  */
+.tour-list{
+    background-color: #ddd;
+    color: white;
+    /* overflow: hidden; */
+}
+
+.tickets-list{
+    top: 0;
+    width: 100%;
+    display: block;
+}
+
+h3.Heading1 {
+    font-size: 34px;
+}
+
+.tickets-list li{
+    padding: 8px 16px;
+    border-bottom: solid;
+    border-bottom-color: #ddd ;
+    border-bottom-width: 1px;
+}
+
+.tour-list .sold-out{
+    padding: 0 8px;
+    margin-left: 16px;
+    background-color: #f44336;
+    color: white;
+}
+
+.tour-list .quality{
+    float: right;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0 8px;
+    /* display: inline-block; */
+    margin-right: 16px;
+    line-height: 24px;
+}
+
+/* begin places  */
+
+.places-list{
+    margin-left: -9px;
+    margin-right: -9px;
+    box-sizing: border-box;
+}
+
+.places-items{
+    margin-top: 32px;
+    float: left;
+    width: 24.3333%;
+    padding: 0 8px;
+}
+
+.places-img{
+    width: 100%;
+    display: block;   
+}
+.places-img:hover{
+    opacity: 0.60;
+}
+
+.places-body{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding-bottom: 20px;
+    
+}
+
+.places-heading{
+    padding: 15px;
+
+}
+
+.places-date{
+    padding: 0 15px;
+    opacity: 0.60;
+}
+
+.places-content{
+    padding: 15px 15px;
+    line-height: 1.4;
+}
+
+.places-buys{
+    text-decoration: none;
+    margin-left: 15px;
+    /* margin-bottom: 15px; */
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+}
+
+.places-buys:hover{
+    color: black;
+    background-color: #ccc;
+}
+
+
+/* begin modal  */
+
+.modal {
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+    /* text-align: center; */
+    align-items: center;
+}
+
+.modal.open{
+    display: flex;
+}
+
+.modal-container {
+    width: 900px;
+    position: relative;
+    min-height: 200px;
+    background: white;
+    max-width: calc(100% - 32px);
+    animation: modalFaceIn ease 0.4s;
+}
+
+.modal-header {
+    background: #009688;
+    padding: 32px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.modal-pay:hover {
+    opacity: 0.7;
+}
+
+i.ti-bag {
+    padding-right: 8px;
+}
+
+.modal-close {
+    position: absolute;
+    right: 0;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+}
+
+.modal-close:hover {
+    opacity: 0.7;
+}
+
+.modal-body {
+    display: inline-grid;
+    padding: 0 16px;
+    width: 100%;
+    font-size: 15px;
+}
+label.modal-label {
+    margin-top: 15px;
+}
+
+
+input.modal-input {
+    margin-top: 10px;
+    padding: 13px;
+    display: block;
+}
+
+.modal-pay {
+    width: 100%;
+    background-color: #009688;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+footer.modal-footer {
+    float: right;
+    /* margin: 10px; */
+    padding: 16px;
+}
+
+a.footerbody {
+    color: #2196F3;
+}
+
+/* begin animation  */
+
+@keyframes modalFaceIn{
+    from{
+        opacity: 0.7;
+        transform: translateY(-140px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.float-l.contact-left {
+    width: 50%;
+    font-size: 18px;
+    line-height: 1.4;
+}
+}
+
+.float-l.contact-right {
+    width: 50%;
+}
+
+.contact-icons {
+    margin-right: 22px;
+}
+
+.contact-right-top {
+    display: inline-flex;
+    margin-bottom: 11px;
+}
+
+.contact-right-input {
+    padding: 9px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.contact-right-top-left {
+    margin-right: 9px;
+}
+
+.contact-button {
+    float: right;
+    margin: 16px 0;
+    padding: 8px 16px;
+    border: none;
+    color: white;
+    background: black;
+}
+
+.contact-button:hover{
+    color: black;
+    background-color: #ddd;
+}
+
+.contact-body {
+    margin: 48px 0;
+}
+
+
+/* begin ming  */
+.img-body{
+    width: 100%;
+}
+
+/* begin footer  */
+#footer{
+    
+    
+}
+.footer-body {
+    padding: 64px 16px;
+    text-align: center;
+    opacity: 0.6;
+}
+p {
+    margin: 15px 0;
+    font-size: 15px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-sodial a:hover{
+    opacity: 0.7;
+}
+
+.footer-end{
+    text-decoration:underline;
+    color: blue;
+}
+
+/* sub margin
+*/
+h3.places-heading.\31 {
+    margin-bottom: 70px;
+}
+h3.places-heading.\32 {
+    margin-bottom: 70px;
+}
+h3.places-heading.\33 {
+    margin-bottom: 91px;
+}
+h3.places-heading.\34 {
+    margin-bottom: 106px;
+}
+h3.places-heading.\37 {
+    margin-bottom: 22px;
+}
+h3.places-heading.\38 {
+    margin-bottom: 117px;
+}
+h3.places-heading.\35 {
+    margin-bottom: 30px;
+}
+h3.places-heading.\36 {
+    margin-bottom: 30px;
+}
+h3.places-heading.\37 {
+    margin-bottom: 51px;
+}
+h3.places-heading.\38 {
+    margin-bottom: 146px;
+}
+h3.places-heading.new2 {
+    padding-bottom: 35px;
+}
+h3.places-heading.new1 {
+    padding-bottom: 128px;
+}
+h3.places-heading.new5 {
+    padding-bottom: 78px;
+}
+
+
+.login {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+    /* text-align: center; */
+    align-items: center;
+}
+
+.modal-body-login {
+    background-color: white;
+}
+
+.modal-login {
+    min-width: 200px;
+    /* width: 600px; */
+    position: relative;
+    /* min-height: 500px; */
+    /* height: 500px; */
+    background: white;
+    max-width: calc(100% - 32px);
+}
+.modal-close-login {
+    position: absolute;
+    right: 0;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+}
+input.modal-input {
+    margin-top: 10px;
+    padding: 13px;
+    width: 100%;
+    display: block;
+    /* margin-left: 131px; */
+    /* text-align: -webkit-match-parent; */
+}
+
+button.js-place-buys-1 {
+    border: none;
+}
